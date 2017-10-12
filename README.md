@@ -58,4 +58,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ### DOM Manipulation 
 If you need to do DOM manipulation on angular, the following page describes that explains how to modify DOM: https://blog.angularindepth.com/exploring-angular-dom-abstractions-80b3ebcfc02
-TEST
+
+### GIT Management 
+There will be two branches in the remote: 
+1. Master
+2. Development 
+
+* Master is a branch for being used as one of toolchains for production. 
+* Development is a branch where people use it to develop the app. Every pull and push request related to de elopment is made to development branch. Once reviewed, changes on development branch will be merged on master branch. 
+
+
