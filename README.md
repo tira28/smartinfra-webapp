@@ -58,3 +58,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ### DOM Manipulation 
 If you need to do DOM manipulation on angular, the following page describes that explains how to modify DOM: https://blog.angularindepth.com/exploring-angular-dom-abstractions-80b3ebcfc02
+TEST
