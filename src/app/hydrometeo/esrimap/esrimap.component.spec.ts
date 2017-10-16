@@ -22,4 +22,9 @@ describe('EsrimapComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('true is true', () => {
+    expect(true).toBe(true);
+  });
+
 });

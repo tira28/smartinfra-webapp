@@ -15,7 +15,16 @@ export class EsrimapComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.createMap();
+    this.bootstrapMap();
+  }
+
+  private bootstrapMap() {
+    esriLoader.bootstrap((err) => {
+      if (err) {
+        console.log('ESRI ArcGIS JS is loaded from index.html');
+      }
+      this.createMap();
+    });
   }
 
   private createMap(): any {
