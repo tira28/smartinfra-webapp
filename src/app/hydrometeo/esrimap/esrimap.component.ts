@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import * as esriLoader from 'esri-loader';
 import { esriModules } from './mapconfig/createMap';
+import {Observable} from 'rxjs/Observable';
 
 
 @Component({
