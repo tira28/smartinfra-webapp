@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HydrometeoComponent implements OnInit {
   public title: string;
   constructor() {
-    this.title = 'HydroMeteo App';
+    this.title = 'HydroMeteo 2.0';
   }
 
   ngOnInit() {

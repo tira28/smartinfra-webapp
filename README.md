@@ -65,6 +65,6 @@ There will be two branches in the remote:
 2. Development 
 
 * Master is a branch for being used as one of toolchains for production. 
-* Development is a branch where people use it to develop the app. Every pull and push request related to de elopment is made to development branch. Once reviewed, changes on development branch will be merged on master branch. 
+* Development is a branch where people use it to develop the app. Every pull and push request related to de elopment is made to development branch. Once reviewed, changes on development branch will be merged to master branch.This is done via Git web interface.  
 
 
